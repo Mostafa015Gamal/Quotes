@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+}
+*::selection {
+  color: #000;
+  background-color: #d78c23;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Amatic SC", sans-serif;
+}
+span {
+  color: #d78c23;
+}
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Assistant", sans-serif;
+}
+.btn {
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  display: grid;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #d78c23;
+  color: #000;
+}
+.Quote {
+  font-family: "Inter", sans-serif;
+}
+.Name {
+  font-size: 50px;
+
+  font-family: "Amatic SC", sans-serif;
+}
